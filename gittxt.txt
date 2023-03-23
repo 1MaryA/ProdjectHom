@@ -1,0 +1,98 @@
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project
+$ git init
+Initialized empty Git repository in C:/Users/Мария/Desktop/project/.git/
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (master)
+$ git add .
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (master)
+$ git commit -m "First commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Мария@DESKTOP-5FG7P5B.(none)')
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (master)
+$ git remote add origin https://github.com/1MaryA/ProdjectHom.git
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (master)
+$ git branch -M main
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/1MaryA/ProdjectHom.git'
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git config --global user.email "maryshink16@gmail.com"
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git config --global user.name "1MaryA"
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git remote add origin https://github.com/1MaryA/ProdjectHom.git
+error: remote origin already exists.
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git branch -M main
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/1MaryA/ProdjectHom.git'
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ echo "# ProdjectHom" >> README.md
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Мария/Desktop/project/.git/
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git commit -m "first commit"
+[main (root-commit) 5325a5c] first commit
+ 2 files changed, 13 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 "python/\320\276\320\261\321\205\320\276\320\264.py"
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git branch -M main
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git remote add origin https://github.com/1MaryA/ProdjectHom.git
+error: remote origin already exists.
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 502 bytes | 251.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/1MaryA/ProdjectHom.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git branch "1"
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (main)
+$ git checkout "1"
+Switched to branch '1'
+
+Мария@DESKTOP-5FG7P5B MINGW64 ~/Desktop/project (1)
+$
